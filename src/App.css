@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.blog{
+    max-width: 1024px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin: auto;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.blog h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
+.blog_p{
+    margin-top: 1rem;
+    color: hsla(240, 4%, 45%,1);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.blog_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media  screen and (max-width:850px) {
+    .blog_main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .blog h2{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .blog_p{
+
+        padding-right: 2rem;
+        padding-left:2rem;
+    }
+}
+a{
+    cursor: pointer;
 }
