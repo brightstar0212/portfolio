@@ -8,7 +8,7 @@ const Contact=()=>{
         
              <div className="contact_content">
                 <div className="contact_main">
-                <h2>Contact Me</h2>
+                <h2>Contact Me!!!</h2>
                 <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
                 <form className='contact_send'>
                 <div className="email">
