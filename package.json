@@ -1,5 +1,5 @@
 {
-  "homepage": "https://brightstar0212.github.io/portfolio.github.io",
+  "homepage": "https://brightstar0212.github.io/portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^6.1.1",
     "leaflet": "^1.9.4",
-    "my-app": "file:",
     "my-portfolio": "file:",
-    "MyPortfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
